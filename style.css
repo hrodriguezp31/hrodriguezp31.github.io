@@ -1,0 +1,101 @@
+body {
+  background-color: #FFF; /* Establece el color de fondo del cuerpo de la página en blanco (#FFF) */
+  margin: 0 auto; /* Centra el contenido en el medio horizontal de la página */
+}
+
+header {
+  background-color: #466995; /* Establece el color de fondo del encabezado en azul (#466995) */
+  border-bottom: 1px solid #466995; /* Agrega una línea divisoria en la parte inferior del encabezado */
+  position: fixed; /* Fija el encabezado en la parte superior de la ventana mientras se desplaza la página */
+  width: 100%; /* Establece el ancho del encabezado al 100% del ancho de la ventana */
+  z-index: 10; /* Establece la posición en el eje Z para controlar la superposición con otros elementos */
+}
+
+ul {
+  margin: 30px auto; /* Agrega márgenes superior e inferior de 30px y centra la lista en el contenedor */
+  padding: 0 20px; /* Agrega relleno (padding) en los lados izquierdo y derecho de la lista */
+  text-align: center; /* Centra el texto dentro de la lista */
+}
+
+li {
+  color: #FFF; /* Establece el color del texto de la lista en blanco (#FFF) */
+  font-family: 'Oswald', sans-serif; /* Define la fuente para el texto de la lista */
+  font-size: 16px; /* Establece el tamaño de fuente a 16px */
+  font-weight: 300; /* Define el peso de la fuente como 300 (generalmente ligero) */
+  text-transform: uppercase; /* Convierte el texto en mayúsculas */
+  display: inline-block; /* Hace que los elementos de lista se muestren en línea en lugar de en una lista vertical */
+  width: 80px; /* Establece un ancho fijo de 80px para los elementos de lista */
+}
+
+li:hover {
+  color: #f02617; /* Cambia el color del texto de la lista a rojo (#f02617) cuando se pasa el mouse por encima */
+}
+
+h1 {
+  color: #466995; /* Establece el color del título principal en azul (#466995) */
+  font-family: 'Oswald', sans-serif; /* Define la fuente para el título */
+  font-size: 32px; /* Establece el tamaño de fuente a 32px */
+  font-weight: 300; /* Define el peso de la fuente como 300 */
+  text-transform: uppercase; /* Convierte el texto en mayúsculas */
+}
+
+h2 {
+  color: #333; /* Establece el color del subtítulo en gris oscuro (#333) */
+  font-family: 'Varela Round', sans-serif; /* Define la fuente para el subtítulo */
+  font-size: 26px; /* Establece el tamaño de fuente a 26px */
+  font-weight: 100; /* Define el peso de la fuente como 100 (generalmente delgado) */
+  margin: 0 auto 20px auto; /* Agrega un margen en la parte inferior para separar el subtítulo del contenido siguiente */
+}
+
+h3 {
+  color: #466995; /* Establece el color del título de nivel 3 en azul (#466995) */
+  font-family: 'Oswald', sans-serif; /* Define la fuente para el título de nivel 3 */
+  font-size: 18px; /* Establece el tamaño de fuente a 18px */
+  text-align: center; /* Centra el texto del título de nivel 3 */
+  font-weight: 700; /* Define el peso de la fuente como 700 (generalmente negrita) */
+  text-transform: uppercase; /* Convierte el texto en mayúsculas */
+  padding: 30px; /* Agrega un relleno (padding) de 30px alrededor del título de nivel 3 */
+}
+
+h4 {
+  color: #466995; /* Establece el color del título de nivel 4 en azul (#466995) */
+  font-family: 'Oswald', sans-serif; /* Define la fuente para el título de nivel 4 */
+  font-size: 18px; /* Establece el tamaño de fuente a 18px */
+  font-weight: 300; /* Define el peso de la fuente como 300 */
+  letter-spacing: 2px; /* Agrega espacio entre las letras */
+  text-align: center; /* Centra el texto del título de nivel 4 */
+  text-transform: uppercase; /* Convierte el texto en mayúsculas */
+}
+
+p {
+  color: #333; /* Establece el color del texto de párrafo en gris oscuro (#333) */
+  font-family: 'Varela Round', sans-serif; /* Define la fuente para el texto de párrafo */
+  font-size: 18px; /* Establece el tamaño de fuente a 18px */
+}
+
+footer {
+  background-color: #DBE9EE; /* Establece el color de fondo del pie de página en azul claro (#DBE9EE) */
+  text-align: center; /* Centra el contenido del pie de página */
+  height: 100px; /* Establece la altura del pie de página a 100px */
+}
+
+.welcome {
+  background-color: #DBE9EE; /* Establece el color de fondo del elemento con clase "welcome" en azul claro (#DBE9EE) */
+  box-sizing: border-box; /* Incluye el relleno y el borde en el ancho y alto total del elemento */
+  padding: 40px; /* Agrega relleno (padding) de 40px alrededor del elemento */
+  text-align: center; /* Centra el contenido dentro del elemento */
+  width: 100%; /* Establece el ancho del elemento al 100% del contenedor padre */
+  position: relative; /* Establece la posición del elemento en relación con su posición normal */
+  top: 50px; /* Desplaza el elemento hacia abajo 50px desde su posición normal */
+}
+
+.question {
+  text-align: center; /* Centra el contenido dentro de elementos con clase "question" */
+  position: relative; /* Establece la posición del elemento en relación con su posición normal */
+  top: 40px; /* Desplaza el elemento hacia abajo 40px desde su posición normal */
+}
+
+.answer {
+  border: 1px solid #466995; /* Agrega un borde sólido de 1px alrededor de elementos con clase "answer" */
+  margin: 20px; /* Agrega un margen de 20px alrededor de los elementos */
+  display: inline-block; /* Hace que los elementos se muestren en
